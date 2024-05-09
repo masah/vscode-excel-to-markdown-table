@@ -14,5 +14,16 @@ Based on https://github.com/thisdavej/copy-excel-paste-markdown and the work of 
 * @usagi for new line handling and refactoring!
 * @trackds for migrating to internal VSCode clipboard API
 
+
+## Build / Install
+- typescriptをインストールする
+    `% npm install typescript`
+- 依存パッケージインストール
+    `% npm install`
+- vsixパッケージ作成
+    `% npx vsce package`
+- vsixパッケージをインストールする
+    `% code --install-extension excel-to-markdown-table-1.3.1.vsix --profile Document`
+
 ## Known Issues
 * None
